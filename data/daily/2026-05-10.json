@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-10T20:18:21+08:00",
+  "collected_at": "2026-05-10T20:48:24+08:00",
   "date": "2026-05-10",
   "errors": [
     "A-share company quotes failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
@@ -11,11 +11,11 @@
   "manual": {},
   "model": {
     "alumina_price_for_cost": 2809.0,
-    "anode_price": 4500.0,
-    "electricity_price": 0.35,
-    "estimated_ton_cost": 13778.279999999999,
-    "estimated_ton_profit": 10601.720000000001,
-    "other_cost": 1500.0
+    "anode_price": 4600.0,
+    "electricity_price": 0.45,
+    "estimated_ton_cost": 16476.28,
+    "estimated_ton_profit": 7903.720000000001,
+    "other_cost": 2800.0
   },
   "sources": {
     "lme_al_3m": {
