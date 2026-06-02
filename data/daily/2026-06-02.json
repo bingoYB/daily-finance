@@ -1,0 +1,128 @@
+{
+  "collected_at": "2026-06-02T08:07:20+08:00",
+  "date": "2026-06-02",
+  "errors": [
+    "A-share bulk quotes failed, used fallback quotes: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  ],
+  "manual": {},
+  "model": {
+    "alumina_price_for_cost": 2868.0,
+    "anode_price": 4600.0,
+    "electricity_price": 0.45,
+    "estimated_ton_cost": 16589.559999999998,
+    "estimated_ton_profit": 7845.440000000002,
+    "other_cost": 2800.0
+  },
+  "sources": {
+    "companies": {
+      "000807": {
+        "change_pct": 1.474201753836879,
+        "high": 29.1299991607666,
+        "low": 28.31999969482422,
+        "market_cap": null,
+        "name": "云铝股份",
+        "open": 28.600000381469727,
+        "previous_close": 28.489999771118164,
+        "price": 28.90999984741211,
+        "quote_url": "https://quote.eastmoney.com/sz000807.html",
+        "source": "yfinance:000807.SZ",
+        "volume": 60496090.0
+      },
+      "000933": {
+        "change_pct": 4.130811684871061,
+        "high": 30.479999542236328,
+        "low": 29.059999465942383,
+        "market_cap": null,
+        "name": "神火股份",
+        "open": 29.350000381469727,
+        "previous_close": 29.049999237060547,
+        "price": 30.25,
+        "quote_url": "https://quote.eastmoney.com/sz000933.html",
+        "source": "yfinance:000933.SZ",
+        "volume": 56672816.0
+      },
+      "002532": {
+        "change_pct": 0.2009359166643243,
+        "high": 15.140000343322754,
+        "low": 14.779999732971191,
+        "market_cap": null,
+        "name": "天山铝业",
+        "open": 15.09000015258789,
+        "previous_close": 14.930000305175781,
+        "price": 14.960000038146973,
+        "quote_url": "https://quote.eastmoney.com/sz002532.html",
+        "source": "yfinance:002532.SZ",
+        "volume": 72774798.0
+      },
+      "601600": {
+        "change_pct": -1.1383547598285637,
+        "high": 11.640000343322754,
+        "low": 11.25,
+        "market_cap": null,
+        "name": "中国铝业",
+        "open": 11.640000343322754,
+        "previous_close": 11.420000076293945,
+        "price": 11.289999961853027,
+        "quote_url": "https://quote.eastmoney.com/sh601600.html",
+        "source": "yfinance:601600.SS",
+        "volume": 251530101.0
+      }
+    },
+    "lme_al_3m": {
+      "change": 11.5,
+      "change_pct": 0.3094725511302476,
+      "cny_price": 25220.265,
+      "high": 3727.5,
+      "low": 3724.5,
+      "name": "LME铝3个月",
+      "open": 3725.5,
+      "price": 3727.5,
+      "quote_date": "2026-06-02",
+      "quote_time": "08:05:59"
+    },
+    "shfe_al": {
+      "change_pct": 0.4935225169648394,
+      "high": 24440.0,
+      "hold": 289755.0,
+      "low": 24325.0,
+      "name": "铝连续",
+      "open": 24420.0,
+      "price": 24435.0,
+      "quote_time": "010000",
+      "volume": 78407.0
+    },
+    "shfe_al_inventory": {
+      "change_ton": 1888.0,
+      "date": "2026-06-01",
+      "inventory_ton": 487400.0
+    },
+    "shfe_ao": {
+      "change_pct": -0.6925207756232732,
+      "high": 2891.0,
+      "hold": 317929.0,
+      "low": 2844.0,
+      "name": "氧化铝连续",
+      "open": 2890.0,
+      "price": 2868.0,
+      "quote_time": "010000",
+      "volume": 185624.0
+    },
+    "spot_basis": [
+      {
+        "date": "20240430",
+        "dom_basis": 35.0,
+        "dom_basis_rate": 0.001703992210321248,
+        "dominant_contract": "al2406",
+        "dominant_contract_price": 20575.0,
+        "dominant_month": "2406",
+        "near_basis": 100.0,
+        "near_basis_rate": 0.004868549172346581,
+        "near_contract": "al2405",
+        "near_contract_price": 20640.0,
+        "near_month": "2405",
+        "spot_price": 20540.0,
+        "symbol": "AL"
+      }
+    ]
+  }
+}
