@@ -1,0 +1,128 @@
+{
+  "collected_at": "2026-06-08T08:01:07+08:00",
+  "date": "2026-06-08",
+  "errors": [
+    "A-share bulk quotes failed, used fallback quotes: HTTPSConnectionPool(host='82.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f12&fs=m%3A0+t%3A6%2Cm%3A0+t%3A80%2Cm%3A1+t%3A2%2Cm%3A1+t%3A23%2Cm%3A0+t%3A81+s%3A2048&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf62%2Cf128%2Cf136%2Cf115%2Cf152 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+  ],
+  "manual": {},
+  "model": {
+    "alumina_price_for_cost": 2775.0,
+    "anode_price": 4600.0,
+    "electricity_price": 0.45,
+    "estimated_ton_cost": 16411.0,
+    "estimated_ton_profit": 7704.0,
+    "other_cost": 2800.0
+  },
+  "sources": {
+    "companies": {
+      "000807": {
+        "change_pct": -3.3566467797786603,
+        "high": 28.950000762939453,
+        "low": 27.5,
+        "market_cap": null,
+        "name": "云铝股份",
+        "open": 28.360000610351562,
+        "previous_close": 28.600000381469727,
+        "price": 27.639999389648438,
+        "quote_url": "https://quote.eastmoney.com/sz000807.html",
+        "source": "yfinance:000807.SZ",
+        "volume": 67049878.0
+      },
+      "000933": {
+        "change_pct": -3.0683439984358185,
+        "high": 28.81999969482422,
+        "low": 27.65999984741211,
+        "market_cap": null,
+        "name": "神火股份",
+        "open": 28.530000686645508,
+        "previous_close": 28.68000030517578,
+        "price": 27.799999237060547,
+        "quote_url": "https://quote.eastmoney.com/sz000933.html",
+        "source": "yfinance:000933.SZ",
+        "volume": 48022300.0
+      },
+      "002532": {
+        "change_pct": -3.7630658362234892,
+        "high": 14.40999984741211,
+        "low": 13.720000267028809,
+        "market_cap": null,
+        "name": "天山铝业",
+        "open": 14.300000190734863,
+        "previous_close": 14.350000381469727,
+        "price": 13.8100004196167,
+        "quote_url": "https://quote.eastmoney.com/sz002532.html",
+        "source": "yfinance:002532.SZ",
+        "volume": 79964436.0
+      },
+      "601600": {
+        "change_pct": -2.018342394989514,
+        "high": 11.079999923706055,
+        "low": 10.510000228881836,
+        "market_cap": null,
+        "name": "中国铝业",
+        "open": 10.699999809265137,
+        "previous_close": 10.899999618530273,
+        "price": 10.680000305175781,
+        "quote_url": "https://quote.eastmoney.com/sh601600.html",
+        "source": "yfinance:601600.SS",
+        "volume": 268667059.0
+      }
+    },
+    "lme_al_3m": {
+      "change": 17.0,
+      "change_pct": 0.47327394209354123,
+      "cny_price": 24497.1702,
+      "high": 3609.0,
+      "low": 3600.5,
+      "name": "LME铝3个月",
+      "open": 3602.0,
+      "price": 3609.0,
+      "quote_date": "2026-06-08",
+      "quote_time": "08:01:01"
+    },
+    "shfe_al": {
+      "change_pct": -0.7613168724279862,
+      "high": 24315.0,
+      "hold": 279252.0,
+      "low": 23900.0,
+      "name": "铝连续",
+      "open": 24300.0,
+      "price": 24115.0,
+      "quote_time": "010000",
+      "volume": 156858.0
+    },
+    "shfe_al_inventory": {
+      "change_ton": -899.0,
+      "date": "2026-06-05",
+      "inventory_ton": 489031.0
+    },
+    "shfe_ao": {
+      "change_pct": 0.6528835690968515,
+      "high": 2783.0,
+      "hold": 321597.0,
+      "low": 2754.0,
+      "name": "氧化铝连续",
+      "open": 2760.0,
+      "price": 2775.0,
+      "quote_time": "010000",
+      "volume": 103662.0
+    },
+    "spot_basis": [
+      {
+        "date": "20240430",
+        "dom_basis": 35.0,
+        "dom_basis_rate": 0.001703992210321248,
+        "dominant_contract": "al2406",
+        "dominant_contract_price": 20575.0,
+        "dominant_month": "2406",
+        "near_basis": 100.0,
+        "near_basis_rate": 0.004868549172346581,
+        "near_contract": "al2405",
+        "near_contract_price": 20640.0,
+        "near_month": "2405",
+        "spot_price": 20540.0,
+        "symbol": "AL"
+      }
+    ]
+  }
+}
