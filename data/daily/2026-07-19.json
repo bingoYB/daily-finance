@@ -1,0 +1,82 @@
+{
+  "collected_at": "2026-07-19T08:14:03+08:00",
+  "date": "2026-07-19",
+  "errors": [
+    "A-share company quotes failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "Eastmoney fallback quote failed for 000807: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "Eastmoney fallback quote failed for 601600: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "Eastmoney fallback quote failed for 000933: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "Eastmoney fallback quote failed for 002532: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "A-share fallback quote failed for 000807: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "A-share fallback quote failed for 601600: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "A-share fallback quote failed for 000933: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "A-share fallback quote failed for 002532: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  ],
+  "manual": {},
+  "model": {
+    "alumina_price_for_cost": 2719.0,
+    "anode_price": 4600.0,
+    "electricity_price": 0.45,
+    "estimated_ton_cost": 16303.48,
+    "estimated_ton_profit": 6976.52,
+    "other_cost": 2800.0
+  },
+  "sources": {
+    "lme_al_3m": {
+      "change": 17.34999999999991,
+      "change_pct": 0.5507062371052185,
+      "cny_price": 21484.041915,
+      "high": 3181.5,
+      "low": 3140.5,
+      "name": "LME铝3个月",
+      "open": 3180.5,
+      "price": 3167.85,
+      "quote_date": "2026-07-18",
+      "quote_time": "01:59:55"
+    },
+    "shfe_al": {
+      "change_pct": 0.21523891519585892,
+      "high": 23295.0,
+      "hold": 247665.0,
+      "low": 23145.0,
+      "name": "铝连续",
+      "open": 23170.0,
+      "price": 23280.0,
+      "quote_time": "010000",
+      "volume": 59223.0
+    },
+    "shfe_al_inventory": {
+      "change_ton": -1442.0,
+      "date": "2026-07-17",
+      "inventory_ton": 379791.0
+    },
+    "shfe_ao": {
+      "change_pct": 1.6448598130841097,
+      "high": 2746.0,
+      "hold": 361089.0,
+      "low": 2650.0,
+      "name": "氧化铝连续",
+      "open": 2650.0,
+      "price": 2719.0,
+      "quote_time": "010000",
+      "volume": 278964.0
+    },
+    "spot_basis": [
+      {
+        "date": "20240430",
+        "dom_basis": 35.0,
+        "dom_basis_rate": 0.001703992210321248,
+        "dominant_contract": "al2406",
+        "dominant_contract_price": 20575.0,
+        "dominant_month": "2406",
+        "near_basis": 100.0,
+        "near_basis_rate": 0.004868549172346581,
+        "near_contract": "al2405",
+        "near_contract_price": 20640.0,
+        "near_month": "2405",
+        "spot_price": 20540.0,
+        "symbol": "AL"
+      }
+    ]
+  }
+}
